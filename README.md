@@ -1,4 +1,4 @@
-👕 AI-Based Virtual Clothes Try-On System
+#👕 AI-Based Virtual Clothes Try-On System
 
 An AI-powered Virtual Clothes Try-On System that allows users to digitally try clothes on a person’s image using Computer Vision and Deep Learning.
 The system takes an image of a person and a clothing item, then intelligently overlays the garment onto the person to generate a realistic try-on result.
@@ -7,13 +7,20 @@ This project demonstrates the use of image segmentation, deep learning, and imag
 
 📌 Features
 
-✔ Upload a person image and clothing image
+✔ Upload a person image and clothing image 
+
 ✔ Automatic background removal
+
 ✔ Clothing mask generation
+
 ✔ Garment alignment and warping
+
 ✔ Realistic virtual try-on output
+
 ✔ Simple execution using Python scripts
+
 ✔ Optional web demo using Gradio
+
 
 🧠 Technologies Used
 Programming
