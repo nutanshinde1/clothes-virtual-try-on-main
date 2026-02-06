@@ -1,126 +1,156 @@
-#👕 AI-Based Virtual Clothes Try-On System
+# 👕 AI-Based Virtual Clothes Try-On System
 
-An AI-powered Virtual Clothes Try-On System that allows users to digitally try clothes on a person’s image using Computer Vision and Deep Learning.
+An AI-powered **Virtual Clothes Try-On System** that allows users to digitally try clothes on a person’s image using **Computer Vision and Deep Learning**.
+
 The system takes an image of a person and a clothing item, then intelligently overlays the garment onto the person to generate a realistic try-on result.
 
-This project demonstrates the use of image segmentation, deep learning, and image processing to simulate a virtual dressing room experience.
+This project simulates a **virtual dressing room** experience for online fashion platforms.
 
-📌 Features
+---
 
-✔ Upload a person image and clothing image 
+# 📌 Table of Contents
 
-✔ Automatic background removal
+- Introduction
+- Features
+- Technologies Used
+- Project Structure
+- Installation
+- Usage
+- Working Pipeline
+- Applications
+- Future Improvements
+- Academic Use
+- Author
 
-✔ Clothing mask generation
+---
 
-✔ Garment alignment and warping
+# 📖 Introduction
 
-✔ Realistic virtual try-on output
+Online shoppers often struggle to visualize how clothes will look on them. This project solves that problem using AI.
 
-✔ Simple execution using Python scripts
+It applies:
+- Image Segmentation
+- Deep Learning
+- Image Warping
+- Computer Vision
 
-✔ Optional web demo using Gradio
+to digitally fit garments onto a person’s photo.
 
+---
 
-🧠 Technologies Used
-Programming
+# ✨ Features
 
-Python
+✔ Upload person & clothing images  
+✔ Automatic background removal  
+✔ Clothing mask generation  
+✔ Garment alignment and warping  
+✔ Realistic virtual try-on results  
+✔ Easy execution using Python  
+✔ Optional Gradio web interface  
 
-Libraries & Frameworks
+---
 
-OpenCV
+# 🧠 Technologies Used
 
-PyTorch
+## Programming Language
+- Python
 
-NumPy
+## Libraries
+- OpenCV
+- PyTorch
+- NumPy
+- torchvision
+- PIL
+- Gradio
 
-torchvision
+## Concepts
+- Computer Vision  
+- Image Segmentation  
+- Deep Learning  
+- Neural Networks  
+- Mask Generation  
+- Image Warping  
 
-PIL (Python Imaging Library)
+---
 
-Gradio (for demo UI)
+# 📂 Project Structure
 
-Concepts
-
-Computer Vision
-
-Image Segmentation
-
-Deep Learning
-
-Mask Generation
-
-Image Warping
-
-Neural Networks
-
-📂 Project Structure
 clothes-virtual-try-on/
 │
-├── assets/              # Images, models, resources
-├── datasets.py          # Dataset loading & preprocessing
-├── network.py           # Neural network architecture
-├── cloth-mask.py        # Cloth segmentation & mask generation
-├── remove_bg.py         # Background removal
-├── test.py              # Testing script
-├── run.py               # Main execution file
-├── utils.py             # Helper functions
-├── setup_gradio.ipynb   # Gradio demo setup
-├── setup_ngrok.ipynb    # Ngrok setup for sharing demo
+├── assets/ # Images and model files
+├── datasets.py # Dataset loading
+├── network.py # Neural network model
+├── cloth-mask.py # Cloth segmentation
+├── remove_bg.py # Background removal
+├── utils.py # Helper functions
+├── test.py # Testing script
+├── run.py # Main execution
+├── setup_gradio.ipynb # Gradio interface
+├── setup_ngrok.ipynb # Online sharing setup
 └── README.md
 
-⚙️ Installation
-Step 1 — Clone Repository
-git clone https://github.com/your-username/clothes-virtual-try-on.git
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone Repository
+```bash
+git clone https://github.com/nutanshinde1/clothes-virtual-try-on.git
 cd clothes-virtual-try-on
-
-Step 2 — Create Virtual Environment (Recommended)
+2️⃣ Create Virtual Environment
 python -m venv venv
-source venv/bin/activate   # On Windows use: venv\Scripts\activate
+Activate:
 
-Step 3 — Install Dependencies
+Windows: venv\Scripts\activate
+Mac/Linux: source venv/bin/activate
+3️⃣ Install Dependencies
 pip install -r requirements.txt
-
 ▶️ Usage
-Run the Project
-python run.py
+Run the project:
 
-Testing
+python run.py
+For testing:
+
 python test.py
 
-
-Provide:
-
+## Provide:
 Person image
-
 Clothing image
 
-The system will generate a virtual try-on result.
+## Output:
+Virtual try-on result image
 
-🧪 How It Works
+---
 
-Input Images
-User provides a person image and a clothing image.
+# 🔍 Working Pipeline
 
-Preprocessing
+## 1️⃣ Input Images
 
-Background removal
+Person image
+Clothing image
 
-Image resizing
+## 2️⃣ Preprocessing
 
-Normalization
+Resize
+Normalize
+Remove background
 
-Clothing Segmentation
-A mask is generated to isolate the clothing region.
+## 3️⃣ Segmentation
 
-Garment Warping
-The clothing is adjusted to match body shape and position.
+Generate clothing mask
 
-Image Synthesis
-Neural networks generate the final try-on output.
+## 4️⃣ Warping
 
-🎯 Applications
+Align clothing to body
+
+## 5️⃣ Synthesis
+
+Neural network generates final output
+
+---
+
+# 🛍️ Applications
 
 Online fashion stores
 
@@ -128,25 +158,24 @@ Virtual fitting rooms
 
 E-commerce platforms
 
-Fashion technology research
+Fashion tech research
 
-AI-based shopping assistants
+AI shopping assistants
 
-🚀 Future Improvements
+# 🚀 Future Improvements
 
-Real-time camera try-on
+Real-time webcam try-on
 
-Better segmentation models
+Mobile app integration
 
-Diffusion model integration
-
-Mobile app version
+Diffusion model for realism
 
 Multi-clothing support
 
-🎓 Academic Use
+Better segmentation models
 
-This project is suitable for:
+# 🎓 Academic Use
+Suitable for:
 
 Machine Learning courses
 
@@ -154,33 +183,10 @@ Computer Vision projects
 
 Deep Learning research
 
-Final year/semester projects
+Semester projects
 
-📸 Sample Output
+# 👩‍💻 Author
+Developed for academic learning and research purposes.
 
-Input:
+Maintained and improved for AI/ML practice.
 
-Person Image
-
-Clothing Image
-
-Output:
-
-Person wearing selected clothes virtually
-
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork and improve the project.
-
-📜 License
-
-This project is for educational and research purposes.
-
-👩‍💻 Author
-
-Developed as part of an academic AI/ML project.
-Maintained and improved for learning and research.
-
- 
- 
