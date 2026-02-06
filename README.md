@@ -77,53 +77,65 @@ to digitally fit garments onto a person’s photo.
 
 clothes-virtual-try-on/
 │
-├── assets/ # Images and model files
-├── datasets.py # Dataset loading
-├── network.py # Neural network model
-├── cloth-mask.py # Cloth segmentation
-├── remove_bg.py # Background removal
-├── utils.py # Helper functions
-├── test.py # Testing script
-├── run.py # Main execution
-├── setup_gradio.ipynb # Gradio interface
-├── setup_ngrok.ipynb # Online sharing setup
+├── assets/               # Images and model files
+├── datasets.py           # Dataset loading
+├── network.py            # Neural network model
+├── cloth-mask.py         # Cloth segmentation
+├── remove_bg.py          # Background removal
+├── utils.py              # Helper functions
+├── test.py               # Testing script
+├── run.py                # Main execution
+├── setup_gradio.ipynb    # Gradio interface
+├── setup_ngrok.ipynb     # Online sharing setup
 └── README.md
+
 
 
 ---
 
-# ⚙️ Installation
+⚙️ Installation
 
-## 1️⃣ Clone Repository
-```bash
+1️⃣ Clone Repository
 git clone https://github.com/nutanshinde1/clothes-virtual-try-on.git
 cd clothes-virtual-try-on
 
 2️⃣ Create Virtual Environment
 python -m venv venv
-Activate:
 
-Windows: venv\Scripts\activate
-Mac/Linux: source venv/bin/activate
+
+Activate environment:
+
+Windows:
+
+venv\Scripts\activate
+
+
+Mac/Linux:
+
+source venv/bin/activate
 
 3️⃣ Install Dependencies
 pip install -r requirements.txt
+
 ▶️ Usage
+
 Run the project:
 
 python run.py
+
 For testing:
 
 python test.py
 
-## Provide:
+Provide:
+
 Person image
 Clothing image
 
-## Output:
+Output:
+
 Virtual try-on result image
 
-exit
 ---
 
 # 🔍 Working Pipeline
