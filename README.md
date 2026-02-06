@@ -77,18 +77,31 @@ to digitally fit garments onto a person’s photo.
 # 📂 Project Structure
 
 clothes-virtual-try-on/
+
 │
+
 ├── assets/ # Images and model files
+
 ├── datasets.py # Dataset loading
+
 ├── network.py # Neural network model
+
 ├── cloth-mask.py # Cloth segmentation
+
 ├── remove_bg.py # Background removal
+
 ├── utils.py # Helper functions
+
 ├── test.py # Testing script
+
 ├── run.py # Main execution
+
 ├── setup_gradio.ipynb # Gradio interface
+
 ├── setup_ngrok.ipynb # Online sharing setup
+
 └── README.md
+
 
 
 ---
@@ -100,24 +113,30 @@ clothes-virtual-try-on/
 
 git clone https://github.com/nutanshinde1/clothes-virtual-try-on.git
 cd clothes-virtual-try-on
+
 ## 2️⃣ Create Virtual Environment
 python -m venv venv
+
 Activate environment:
 
 Windows:
 
 venv\Scripts\activate
+
 Mac/Linux:
 
 source venv/bin/activate
 
 ## 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 ## ▶️ Usage
+
 Run the project:
 
 python run.py
+
 For testing:
 
 python test.py
@@ -131,6 +150,8 @@ Clothing image
 Output:
 
 Virtual try-on result image
+
+---
 
 # 🔍 Working Pipeline
 ## 1️⃣ Input Images
@@ -154,38 +175,33 @@ Align clothing to body
 ## 5️⃣ Synthesis
 Neural network generates final output
 
+---
+
 # 🛍️ Applications
-Online fashion stores
+- Online fashion stores
 
-Virtual fitting rooms
+- Virtual fitting rooms
 
-E-commerce platforms
+- E-commerce platforms
 
-Fashion technology research
+- Fashion technology research
 
-AI shopping assistants
+- AI shopping assistants
+
+  ---
 
 # 🚀 Future Improvements
-Real-time webcam try-on
+- Real-time webcam try-on
 
-Mobile app integration
+- Mobile app integration
 
-Diffusion models for realism
+- Diffusion models for realism
 
-Multi-clothing support
+- Multi-clothing support
 
-Better segmentation models
+- Better segmentation models
 
-# 🎓 Academic Use
-Suitable for:
-
-Machine Learning courses
-
-Computer Vision projects
-
-Deep Learning research
-
-Semester projects
+  ---
 
 # 👩‍💻 Author
 Developed for academic learning and research purposes.
