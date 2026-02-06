@@ -98,12 +98,14 @@ clothes-virtual-try-on/
 ```bash
 git clone https://github.com/nutanshinde1/clothes-virtual-try-on.git
 cd clothes-virtual-try-on
+
 2️⃣ Create Virtual Environment
 python -m venv venv
 Activate:
 
 Windows: venv\Scripts\activate
 Mac/Linux: source venv/bin/activate
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
 ▶️ Usage
@@ -121,6 +123,7 @@ Clothing image
 ## Output:
 Virtual try-on result image
 
+exit
 ---
 
 # 🔍 Working Pipeline
