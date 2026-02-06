@@ -29,10 +29,11 @@ This project simulates a **virtual dressing room** experience for online fashion
 Online shoppers often struggle to visualize how clothes will look on them. This project solves that problem using AI.
 
 It applies:
-- Image Segmentation
-- Deep Learning
-- Image Warping
-- Computer Vision
+
+- Image Segmentation  
+- Deep Learning  
+- Image Warping  
+- Computer Vision  
 
 to digitally fit garments onto a person’s photo.
 
@@ -56,12 +57,12 @@ to digitally fit garments onto a person’s photo.
 - Python
 
 ## Libraries
-- OpenCV
-- PyTorch
-- NumPy
-- torchvision
-- PIL
-- Gradio
+- OpenCV  
+- PyTorch  
+- NumPy  
+- torchvision  
+- PIL  
+- Gradio  
 
 ## Concepts
 - Computer Vision  
@@ -77,52 +78,46 @@ to digitally fit garments onto a person’s photo.
 
 clothes-virtual-try-on/
 │
-├── assets/               # Images and model files
-├── datasets.py           # Dataset loading
-├── network.py            # Neural network model
-├── cloth-mask.py         # Cloth segmentation
-├── remove_bg.py          # Background removal
-├── utils.py              # Helper functions
-├── test.py               # Testing script
-├── run.py                # Main execution
-├── setup_gradio.ipynb    # Gradio interface
-├── setup_ngrok.ipynb     # Online sharing setup
+├── assets/ # Images and model files
+├── datasets.py # Dataset loading
+├── network.py # Neural network model
+├── cloth-mask.py # Cloth segmentation
+├── remove_bg.py # Background removal
+├── utils.py # Helper functions
+├── test.py # Testing script
+├── run.py # Main execution
+├── setup_gradio.ipynb # Gradio interface
+├── setup_ngrok.ipynb # Online sharing setup
 └── README.md
-
 
 
 ---
 
-⚙️ Installation
+# ⚙️ Installation
 
-1️⃣ Clone Repository
+## 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/nutanshinde1/clothes-virtual-try-on.git
 cd clothes-virtual-try-on
-
-2️⃣ Create Virtual Environment
+## 2️⃣ Create Virtual Environment
 python -m venv venv
-
-
 Activate environment:
 
 Windows:
 
 venv\Scripts\activate
-
-
 Mac/Linux:
 
 source venv/bin/activate
 
-3️⃣ Install Dependencies
+## 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-▶️ Usage
-
+## ▶️ Usage
 Run the project:
 
 python run.py
-
 For testing:
 
 python test.py
@@ -130,60 +125,52 @@ python test.py
 Provide:
 
 Person image
+
 Clothing image
 
 Output:
 
 Virtual try-on result image
 
----
-
 # 🔍 Working Pipeline
-
 ## 1️⃣ Input Images
-
 Person image
+
 Clothing image
 
 ## 2️⃣ Preprocessing
-
 Resize
+
 Normalize
-Remove background
+
+Background removal
 
 ## 3️⃣ Segmentation
-
 Generate clothing mask
 
 ## 4️⃣ Warping
-
 Align clothing to body
 
 ## 5️⃣ Synthesis
-
 Neural network generates final output
 
----
-
 # 🛍️ Applications
-
 Online fashion stores
 
 Virtual fitting rooms
 
 E-commerce platforms
 
-Fashion tech research
+Fashion technology research
 
 AI shopping assistants
 
 # 🚀 Future Improvements
-
 Real-time webcam try-on
 
 Mobile app integration
 
-Diffusion model for realism
+Diffusion models for realism
 
 Multi-clothing support
 
@@ -202,6 +189,8 @@ Semester projects
 
 # 👩‍💻 Author
 Developed for academic learning and research purposes.
-
 Maintained and improved for AI/ML practice.
+
+
+---
 
