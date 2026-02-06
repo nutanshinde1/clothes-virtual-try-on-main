@@ -117,15 +117,17 @@ cd clothes-virtual-try-on
 ## 2️⃣ Create Virtual Environment
 python -m venv venv
 
-Activate environment:
+### Activate environment:
 
-Windows:
+
+#### Windows:
 
 venv\Scripts\activate
 
-Mac/Linux:
+#### Mac/Linux:
 
 source venv/bin/activate
+
 
 ## 3️⃣ Install Dependencies
 
@@ -133,21 +135,21 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-Run the project:
+### Run the project:
 
 python run.py
 
-For testing:
+### For testing:
 
 python test.py
 
-Provide:
+### Provide:
 
 Person image
 
 Clothing image
 
-Output:
+### Output:
 
 Virtual try-on result image
 
