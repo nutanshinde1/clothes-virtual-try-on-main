@@ -97,7 +97,7 @@ clothes-virtual-try-on/
 
 ## 1️⃣ Clone Repository
 
-```bash
+
 git clone https://github.com/nutanshinde1/clothes-virtual-try-on.git
 cd clothes-virtual-try-on
 ## 2️⃣ Create Virtual Environment
