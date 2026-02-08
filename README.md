@@ -4,7 +4,7 @@ An AI-powered **Virtual Clothes Try-On System** that allows users to digitally t
 
 The system takes an image of a person and a clothing item, then intelligently overlays the garment onto the person to generate a realistic try-on result.
 
-This project simulates a **virtual dressing room** experience for online fashion platforms.
+This project simulates a **virtual dressing room** experience for online fashion platforms. 
 
 ---
 
