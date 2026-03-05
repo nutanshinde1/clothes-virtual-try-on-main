@@ -3,7 +3,7 @@ from os import path as osp
 
 import numpy as np
 from PIL import Image, ImageDraw
-import torch
+import torch  
 from torch.utils import data
 from torchvision import transforms
 
