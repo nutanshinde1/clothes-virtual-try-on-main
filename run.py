@@ -6,7 +6,7 @@ import os
 
 def resize_img(path):
     im = Image.open(path)
-    im = im.resize((768, 1024))
+    im = im.resize((768, 1024)) 
     im.save(path)
 
 
