@@ -12,7 +12,7 @@ def gen_noise(shape):
     noise = cv2.randn(noise, 0, 255)
     noise = np.asarray(noise / 255, dtype=np.uint8)
     noise = torch.tensor(noise, dtype=torch.float32)
-    return noise
+    return noise 
 
 
 def save_images(img_tensors, img_names, save_dir):
