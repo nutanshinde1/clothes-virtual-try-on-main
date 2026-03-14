@@ -11,7 +11,7 @@ def resize_img(path):
 
 
 for path in os.listdir('/content/inputs/test/cloth/'):
-    resize_img(f'/content/inputs/test/cloth/{path}')
+    resize_img(f'/content/inputs/test/cloth/{path}') 
 
 os.chdir('/content/clothes-virtual-try-on')
 os.system("rm -rf /content/inputs/test/cloth/.ipynb_checkpoints")
