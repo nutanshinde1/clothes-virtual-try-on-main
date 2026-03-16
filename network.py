@@ -4,7 +4,7 @@ from torch import nn
 from torch.nn import functional as F
 from torch.nn import init
 from torch.nn.utils.spectral_norm import spectral_norm
-
+ 
 
 # ----------------------------------------------------------------------------------------------------------------------
 #                                                     Common classes
