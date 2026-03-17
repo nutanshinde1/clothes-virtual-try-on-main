@@ -8,7 +8,7 @@ def resize_img(path):
     im = Image.open(path)
     im = im.resize((768, 1024)) 
     im.save(path)
-
+ 
 
 for path in os.listdir('/content/inputs/test/cloth/'):
     resize_img(f'/content/inputs/test/cloth/{path}') 
