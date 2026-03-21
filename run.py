@@ -4,7 +4,7 @@ import os
 
 # running the preprocessing
 
-def resize_img(path):
+def resize_img(path): 
     im = Image.open(path)
     im = im.resize((768, 1024)) 
     im.save(path)
