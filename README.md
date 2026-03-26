@@ -29,7 +29,7 @@ This project simulates a **virtual dressing room** experience for online fashion
 Online shoppers often struggle to visualize how clothes will look on them. This project solves that problem using AI.
 
 It applies:
-
+ 
 - Image Segmentation  
 - Deep Learning  
 - Image Warping  
