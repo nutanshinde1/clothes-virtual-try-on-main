@@ -7,7 +7,7 @@ The system takes an image of a person and a clothing item, then intelligently ov
 This project simulates a **virtual dressing room** experience for online fashion platforms. 
   
 ---
-
+ 
 # 📌 Table of Contents    
  
 - Introduction 
